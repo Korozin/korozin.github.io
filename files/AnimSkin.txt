@@ -1,0 +1,41 @@
+10020001 100AFB10
+14040100 00000001  <- parent code.
+11020001 100AFB10
+------------------
+03020000 100AFB10
+000000XX 00000000  <- frame 1
+00020000 12000000
+XXXXXXXX 00000000
+D0000000 DEADCAFE
+------------------
+07020000 100AFB10
+00000093 00000000
+00020000 100AFB10
+00000002 00000000
+D0000000 DEADCAFE
+C000000C 60000000  <- ending agreement
+9421FFE0 3D200316
+61296818 7C0802A6
+7D2903A6 90010024
+4E800421 80630034
+2C030000 41820024
+38600000 3C801200
+80840000 38A00001
+3D8002F7 398C0028
+7D8903A6 4E800421
+80010024 3D20010F
+61296AE0 7D2903A6
+7C0803A6 4E800420
+D0000000 DEADCAFE
+
+pointer:  [[10A0A624]+9C]+7DC
+
+within the frames there are two empty values. The first XX near the top
+and the second XXXXXXXX near the bottom. For the first two frames the XX
+must be 02 and then 12. For any frame after it can be any number above
+14. For the XXXXXXXX you go into a world and put on the first skin as the
+first frame you want, go into the memory viewer and follow pointer, the
+value that shows is the skin value, in the first frame replace the
+XXXXXXXX with the skin value. Then change to the second skin and press
+update to get the second value and so on. Make sure to copy and paste the
+frame code to fit how many frames you need. 
