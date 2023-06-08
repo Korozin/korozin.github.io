@@ -1,3 +1,7 @@
+window.onload = function() {
+  window.scrollTo(0, 0);
+};
+
 window.onscroll = function() {
   var navbar = document.getElementById("navbar");
   var header = document.querySelector(".header");
