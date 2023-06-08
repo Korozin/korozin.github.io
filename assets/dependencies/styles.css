@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #1c2331, #282c3f);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Style the header */
+.header {
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 18px 0;
+  z-index: 1;
+}
+
+/* Style the navigation bar */
+.navbar {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  background-color: #333;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the navigation links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Change the background color of the active link */
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #8a8a8a;
+  color: white;
+}
+
+/* Style the button */
+.button {
+  display: block;
+  margin: 10px auto 0;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px #357e38;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Change the box shadow on hover */
+.button:hover {
+  box-shadow: 0 8px #357e38;
+}
+
+/* Style the title */
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  margin-top: 280px;
+  position: relative;
+}
+
+.title2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  margin-top: 100px;
+  padding: 5px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+  background-color: #4CAF50;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+.card p {
+  line-height: 1.5;
+  color: #111;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.card2 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  margin-top: 20px;
+  padding: 5px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+  background-color: #4CAF50;
+}
+
+.card2 h3 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+}
+
+.card2 p {
+  line-height: 1.5;
+  color: #222;
+}
+
+.card2 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

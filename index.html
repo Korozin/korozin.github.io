@@ -1,42 +1,33 @@
-<html lang = "en-US">
+<!DOCTYPE html>
+<html>
 
-    <head>
-        <title>Wii U Web Exploits</title>
-		<script type="text/javascript">
-		if (navigator.userAgent.indexOf('.11274.US') !=-1)
-		{
-		window.location.href = "firmware/55X.html"
-		}
-		else if (navigator.userAgent.indexOf('.11274.EU') !=-1)
-        {
-        window.location.href = "firmware/55X.html"
-        }
-        else if (navigator.userAgent.indexOf('.11274.JP') !=-1)
-        {
-        window.location.href = "firmware/55X.html"
-        }
-        else if (navigator.userAgent.indexOf('.11264') !=-1)
-        {
-        window.location.href = "firmware/55X.html"
-        }
-        else if (navigator.userAgent.indexOf('.11224') !=-1)
-        {
-        window.location.href = "firmware/55X.html"
-        }
-        else if (navigator.userAgent.indexOf('.11146') !=-1)
-        {
-        window.location.href = "firmware/540.html"
-        }
-        else if (navigator.userAgent.indexOf('Nintendo WiiU') !=-1)
-        {
-        window.location.href = "firmware/xxx.html"
-        }
-        else
-        {
-        window.location.href = "firmware/HUB.html"
-        }
-        </script>
-	    <a href="http://korozin.github.io/titlekey">Wii U Title Key Site</a>
-    </head>
+<head>
+  <title>Modding Hub - Home</title>
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="./assets/dependencies/styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="header">Modding Hub - Home</div>
+
+  <!-- Navigation bar -->
+  <div class="navbar" id="navbar">
+    <a class="active" href="#">Home</a>
+    <a href="./assets/pages/textures.html">Texture Packs</a>
+    <a href="./assets/pages/skins.html">Skin Packs</a>
+    <a href="./assets/pages/maps.html">Map Mods</a>
+    <a href="#">Code Tools</a>
+    <a href="#">Misc Tools</a>
+  </div>
+
+  <!-- Title and button -->
+  <div class="title">!~ Homebrew Exploit ~!</div>
+  <div class="title2">!~ This only works on firmware: 5.5.X ~!</div>
+  <a href="./assets/dependencies/payload.html" class="button">Click Me!</a>
+
+  <!-- Script to make the navbar follow the user -->
+  <script type="text/javascript" src="./assets/dependencies/script.js"></script>
+</body>
 
 </html>
